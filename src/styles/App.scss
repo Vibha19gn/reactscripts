@@ -1,0 +1,69 @@
+$font-stack: source sans pro;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.data-grid {
+  margin: 40px auto 20px;
+  width: 900px;
+}
+
+.grid-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.data-grid-cell {
+  width: 25%;
+  height: 25%;
+  text-align: center;
+}
+
+.data-grid-header {
+  .data-grid-cell {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+.data-grid-rows {
+  .data-grid-row {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+
+    .data-grid-row-sub-section {
+      padding: 10px;
+    }
+  }
+}
+
+.address-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.address-container {
+  display: flex;
+
+  .addresses {
+    padding: 0 10px 0 0;
+  }
+}
+
+.spinner {
+  font-size: 100px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+.hideSpinner {
+  display: none;
+}
