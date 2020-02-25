@@ -1,5 +1,5 @@
 {
- weather : {
+ "weather" : {
   "location": {
     "woeid": 2502265,
     "city": "Florida",
