@@ -24,7 +24,6 @@ class Customers extends Component {
     const {
       customers = []
     } = this.props;
-    console.log("customers==", customers);
     return (
       customers &&
       <Grid
